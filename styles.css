@@ -14,6 +14,7 @@ h1, h2, h3 {
 }
 .roy{
   color: white;
+  padding-bottom:100px;
 }
 .tag{
   color: orange;
@@ -47,8 +48,8 @@ header nav ul {
   display: flex;
   justify-content: center;
   list-style: none;
-  padding-left: 50 %;
-  padding-bottom:50 px:
+  padding-left: 50%;
+  padding-bottom:50px:
 }
 
 header nav ul li {
