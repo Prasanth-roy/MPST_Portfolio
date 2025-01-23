@@ -50,7 +50,7 @@ header nav ul {
 }
 
 header nav ul li {
-  margin: 0 15 px;
+  margin: 0 15px;
 }
 
 header nav ul li a {
@@ -61,6 +61,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
   text-decoration: underline;
+  color:orange;
 }
 
 /* Sections */
