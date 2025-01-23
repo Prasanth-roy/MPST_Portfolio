@@ -36,7 +36,7 @@ h1, h2, h3 {
 .head{
 
  color: white ;
- padding-right:75%;
+
  padding-left:30px;
 }
 /* Header */
@@ -49,10 +49,9 @@ header {
 
 header nav ul {
   display: flex;
-  justify-content: center;
+  justify-content:centre;
   list-style: none;
-  padding-right: 50%;
-  padding-bottom:50px:
+  padding-left: 50px;
 }
 
 header nav ul li {
