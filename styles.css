@@ -14,7 +14,7 @@ h1, h2, h3 {
 }
 .roy{
   color: white;
-  padding-right:75%;
+  padding-right:50%;
 }
 .tag{
   color: orange;
@@ -35,6 +35,7 @@ h1, h2, h3 {
 .head{
 
  color: white ;
+  padding-right:75%;
 }
 /* Header */
 header {
@@ -48,7 +49,7 @@ header nav ul {
   display: flex;
   justify-content: center;
   list-style: none;
-  padding-left: 500px;
+  padding-left: 40%;
   padding-bottom:50px:
 }
 
@@ -276,6 +277,7 @@ footer h2 {
     width: 250px;
     border-radius: 20px;
     font-weight: bold;
+    text-decoration: none;
 }
 .resume:hover {
     text-decoration: none;
