@@ -264,7 +264,7 @@ footer h2 {
   color:rgb(241, 243, 242);
 }
 /* 11 */
-.btn-11 {
+.resume {
   border: none;
   background: rgb(255, 81, 0);
     background: linear-gradient(0deg, rgb(255, 183, 0) 0%, rgba(253, 190, 2, 0.958) 100%);
@@ -276,14 +276,14 @@ footer h2 {
     border-radius: 20px;
     font-weight: bold;
 }
-.btn-11:hover {
+.resume:hover {
     text-decoration: none;
     color: #ffffff;
     background-color: orange;
     cursor: pointer;
     font-weight: bold;
 }
-.btn-11:before {
+.resume:before {
     position: absolute;
     content: '';
     display: inline-block;
@@ -294,7 +294,7 @@ footer h2 {
     background-color: #960a0a;
     animation: shiny-btn1 3s ease-in-out infinite;
 }
-.btn-11:hover{
+.resume:hover{
   opacity: .7;
 }
 /* .btn-11:active{
