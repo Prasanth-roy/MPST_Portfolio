@@ -271,7 +271,7 @@ footer h2 {
     color: #fff;
     overflow: hidden;
     cursor: pointer;
-    height: 50px;
+    height: 100px;
     width: 250px;
     border-radius: 20px;
     font-weight: bold;
@@ -291,9 +291,9 @@ footer h2 {
     text-decoration: none;
     top: -180px;
     left: 0;
-    width: 30px;
+    width: 50px;
     /* height: 100%; */
-    background-color: #960a0a;
+    background-color: orange;
     animation: shiny-btn1 3s ease-in-out infinite;
 }
 .resume:hover{
