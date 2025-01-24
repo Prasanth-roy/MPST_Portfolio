@@ -267,13 +267,13 @@ footer h2 {
 .resume {
   border: none;
   background: rgb(255, 81, 0);
-    background: linear-gradient(0deg, rgb(255, 183, 0) 0%, rgba(253, 190, 2, 0.958) 100%);
+    background:orange;
     color: #fff;
     overflow: hidden;
     cursor: pointer;
     height: 100px;
     width: 250px;
-    border-radius: 20px;
+    border-radius: 10px;
     font-weight: bold;
     text-decoration: none;
 }
