@@ -51,18 +51,18 @@ header nav ul {
 header nav ul li {
   margin: 0 15px;
 }
-
+/* 
 header nav ul li a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-}
+} */
 
 /* header nav ul li a:hover {
   text-decoration: underline;
   color:orange;
 } */
-a {
+header nav ul li a {
   text-decoration: none;
   color: black;
   position: relative;
@@ -79,7 +79,7 @@ header nav ul li a::after {
   transition: width 0.3s ease-in-out;
 }
 
-a:hover::after {
+header nav ul li a:hover::after {
   width: 100%;
 }
 
