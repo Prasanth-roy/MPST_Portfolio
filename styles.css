@@ -76,7 +76,7 @@ header nav ul li a::after {
 
 header nav ul li a:hover::after {
   width: 100%;
-  color:red;
+  color:orange;
 }
 
 /* Sections */
