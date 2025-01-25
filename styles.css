@@ -68,7 +68,7 @@ a {
   position: relative;
 }
 
-a::after {
+header nav ul li a::after {
   content: "";
   position: absolute;
   left: 0;
