@@ -34,7 +34,8 @@ h1, h2, h3 {
 }
 /* Header */
 header {
-  background-color: #444;
+  
+  background-image:url("images (3).jpeg");
   color: #fff;
   margin-bottom:15px;
   
