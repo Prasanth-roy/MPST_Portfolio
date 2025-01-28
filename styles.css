@@ -38,11 +38,14 @@ header {
   background-image:url("images (3).jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #f3f3f3; /* Fallback color */
   background-clip: content-box;
   color: #fff;
   margin-bottom:15px;
   
-  padding: 20px 0; 
+  
 }
 
 header nav ul {
