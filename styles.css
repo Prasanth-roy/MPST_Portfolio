@@ -22,7 +22,7 @@ h1, h2, h3 {
 }
 .img{
   border-radius: 50%;
-  border: 1px solid red;
+  border: 1px solid white;
   padding-top:100px:
 
 
@@ -34,15 +34,11 @@ h1, h2, h3 {
 }
 /* Header */
 header {
-  
-  background-image:url("images (3).jpeg");
-  background-repeat: no-repeat;
-  background-opacity:50%;
+  background-color:#fff;
   background-clip: content-box;
   color: #fff;
   margin-bottom:15px;
-  
-  
+  padding-top:0px 0px;
 }
 
 header nav ul {
