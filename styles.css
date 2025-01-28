@@ -16,6 +16,7 @@ h1, h2, h3 {
 .roy{
   color: white;
   
+  
 }
 .tag{
   color: orange;
@@ -32,6 +33,7 @@ h1, h2, h3 {
 .head{
   color:orange;
   padding-left:30px;
+  padding-bottom:100px;
 }
 /* Header */
 header {
