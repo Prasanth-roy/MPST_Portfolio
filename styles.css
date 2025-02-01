@@ -366,7 +366,7 @@ header {
   color: #fff;
 
   text-align: center;
-  padding-top:5px;
+  padding-bottom:5px;
 
  
 
@@ -621,7 +621,7 @@ footer h2 {
   border: none;
 
 
-    background-color: white;
+    background-color: orange;
 
     color: #fff;
 
@@ -629,11 +629,11 @@ footer h2 {
 
     cursor: pointer;
 
-    height: 100px;
+    height: 300px;
 
     width: 250px;
 
-    border-radius: 10px;
+    border-radius: 2px;
 
     font-weight: bold;
 
@@ -653,39 +653,8 @@ footer h2 {
 
     font-weight: bold;
 
-}
-
-.resume:before {
-
-    position: absolute;
-
-    content: '';
-
-    display: inline-block;
-
-    text-decoration: none;
-
-    top: -180px;
-
-    left: 0;
-
-    width: 50px;
-
-    /* height: 100%; */
-
-    background-color: orange;
-
-    animation: shiny-btn1 3s ease-in-out infinite;
-
-}
-
-.resume:hover{
-
-  opacity: .7;
-
-}
+ }
 
 
-} */
 
   
