@@ -35,7 +35,7 @@ body {
     padding: 10px;
     font-size: 16px;
     outline: none;
-    width: 300px; /* Adjust width as needed */
+    width: 100%; /* Adjust width as needed */
 }
 
 .search-button {
@@ -48,7 +48,7 @@ body {
 }
 
 .search-button:hover {
-    background-color: #0056b3;
+    background-color: orange;
 }
 
 h1, h2, h3 {
