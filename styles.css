@@ -22,7 +22,34 @@ body {
 
 }
 
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
 
+.search-input {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    width: 300px; /* Adjust width as needed */
+}
+
+.search-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
 
 h1, h2, h3 {
 
