@@ -25,7 +25,7 @@ body {
 .search-container {
     display: flex;
     align-items: center;
-    border: 1px solid #ccc;
+    border: 1px solid red;
     border-radius: 5px;
     overflow: hidden;
 }
@@ -366,6 +366,7 @@ header {
   color: #fff;
 
   text-align: center;
+  padding-top:5px;
 
  
 
