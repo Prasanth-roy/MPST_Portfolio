@@ -1,171 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-  
 <body>
- <header>
-   <div class="search-container">
-        <input type="text" class="search-input" placeholder="Search...">
-        <button class="search-button">Search</button>
+
+<header>
+    <div class="search-container">
+        <input type="text" id="searchBox" class="search-input" placeholder="Search...">
+        <button class="search-button" onclick="searchContent()">Search</button>
     </div>
-   <h1 class="head">Portfolio</h1>
-      <nav>
-         <ul>
-         <li><a href="#about">About</a></li>
-          <li><a href="#education">Education</a></li>
-       
-          <li><a href="#skills">Skills</a></li>
-             <li><a href="#contact">Contact</a></li>
-          
+    <h1 class="head">Portfolio</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav>
-  <img src="Picsart_25-01-28_12-28-03-129.jpg" class="img" height="270" width="250">
+    </nav>
+    <img src="Picsart_25-01-28_12-28-03-129.jpg" class="img" height="270" width="250">
     <div class="container">
-   
-      <h1 class="roy"> Mortha Prasanth </h1>
-
-
-      <p class="tag">Web Developer | Designer | Programmer</p>
+        <h1 class="roy">Mortha Prasanth</h1>
+        <p class="tag">Web Developer | Designer | Programmer</p>
     </div>
-           
-   
-  </header>
+</header>
 
-  <section id="about" class="section">
+<section id="about" class="section">
     <h2>About Me:</h2>
-    <p>Hello!<br>
-      <h2>I'am</h2>
-    <h1 class="name"> Prasanth Mortha</h1 >
-    a passionate web developer.</p>
-    <strong>Present Studying B.Tech at Pydah College of Engineering, Patavala. (JNTUK)</strong>
-<li><strong>2023-2027</strong></li>
-  </section>
+    <p>Hello! I am <strong class="name">Prasanth Mortha</strong>, a passionate web developer.</p>
+    <p><strong>Present Studying B.Tech at Pydah College of Engineering, Patavala. (JNTUK)</strong></p>
+    <ul>
+        <li><strong>2023-2027</strong></li>
+    </ul>
+</section>
 
-  <section id="education" class="section">
+<section id="education" class="section">
     <h2>Education:</h2>
     <div class="projects-container">
-      <div class="project">
-        <h3>Present:</h3>
-        <p>B.Tech in the stream of Computer Science Engineering.<br>
-       <li><strong>2023-2027</strong></li>
-        </p>
-      </div>
-      <div class="project">
-        <h3>Intermidiate:</h3>
-        <p>At Government Junior College, Kajuluru.</p>
-        <li><strong>Grade:</strong>85%</li>
-      </div>
-      <div class="project">
-        <h3>School:</h3>
-        <p>At Z.P.P High School, Kuyyeru..</p>
-        <li><strong>Grade:</strong>8.5</li>
-      </div>
+        <div class="project">
+            <h3>Present:</h3>
+            <p>B.Tech in Computer Science Engineering</p>
+            <li><strong>2023-2027</strong></li>
+        </div>
+        <div class="project">
+            <h3>Intermediate:</h3>
+            <p>Government Junior College, Kajuluru</p>
+            <li><strong>Grade: 85%</strong></li>
+        </div>
+        <div class="project">
+            <h3>School:</h3>
+            <p>Z.P.P High School, Kuyyeru</p>
+            <li><strong>Grade: 8.5</strong></li>
+        </div>
     </div>
-  </section>
-  
-  <section id="skills" class="section">
+</section>
+
+<section id="skills" class="section">
     <h2>Skills:</h2>
     <div class="projects-container">
-      <div class="project">
-        <h3>Coding:</h3>
-       <li>HTML & CSS</li>
-        <li>C Language</li>
-         <li>Java</li>
-       <li>Data Strutures</li>
-       <li>Python Basics</li>
-      </div>
-      <div class="project">
-      <h3>Additional:</h3>
-      <li>Ms Word & Excel</li>
-        <li>Adobe Photoshop</li>
-         <li>Photo Editing</li>
-       <li>Vedio Editing</li>
-       
-       
-      </div>
-      <div class="project">
-        <h3>Others:</h3>
-        <li>Musician</li>
-        <li>Typing...</li>
-         <li>Gamer</li>
-      
-        
-      </div>
+        <div class="project">
+            <h3>Coding:</h3>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>C Language</li>
+                <li>Java</li>
+                <li>Data Structures</li>
+                <li>Python Basics</li>
+            </ul>
+        </div>
+        <div class="project">
+            <h3>Additional:</h3>
+            <ul>
+                <li>MS Word & Excel</li>
+                <li>Adobe Photoshop</li>
+                <li>Photo Editing</li>
+                <li>Video Editing</li>
+            </ul>
+        </div>
+        <div class="project">
+            <h3>Others:</h3>
+            <ul>
+                <li>Musician</li>
+                <li>Typing...</li>
+                <li>Gamer</li>
+            </ul>
+        </div>
     </div>
-  </section>
+</section>
 
-  <section id="contact" class="section">
+<section id="contact" class="section">
     <h2>Contact Me</h2>
     <p>Feel free to reach out to discuss projects or collaborations!</p>
-    <form action="https://api.web3forms.com/submit" method="POST">
-      <input type="hidden" name="access_key" value="94e20a8d-8602-430f-b411-50fc9b7d937d">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit" href="C:\Users\WIN11\inf.html">Send Message</button></a>
+    <form onsubmit="return validateForm()">
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
     </form>
-  </section>
-  
-  
-    <div class="contact-section">
-        <h2>My Contact Details</h2>
-        <ul class="contact-list">
-            <li>
-                <i class="fas fa-phone"></i>
-                
-                <span> +91 9177688154</span>
-            </li>
-            <li>
-                <i class="fas fa-envelope"></i>
-                <span>morthaprasanth698@gmail.com</span>
-            </li>
-            <li>
-                <i class="fas fa-map-marker-alt"></i>
-                <span>Duggudurru, Andhra Pradhesh, India</span>
-            </li>
-        </ul>
-    </div>
-  
-  <footer>
-    <button>
-      
-      <a href="ROY CV .pdf" class="resume"><i class="fa-solid fa-download">
-      </i>&nbsp;&nbsp;Download CV</a>
-    </button>
-    
-    <div class="container">
-    <h1>Social Media </h1>
-      <div class="social-icons">
-        <a href="https://www.facebook.com/mortha.prasanth.7?mibextid=rS40aB7S9Ucbxw6v" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="https://youtube.com/@mpstroy-wk4fv?si=eZTW82Q9J2j_pOVQ" target="_blank"><i class="fab fa-youtube"></i></a>
-        <a href="https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=prasanth-mortha-36937b321" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.instagram.com/m.p.s.t_roy?igsh=ZXB5MmY2NnBqdnh5" target="_blank"><i class="fab fa-instagram"></i></a>
-      
-      </div>
-    </div>
-</footer>
-  <script>
-        function searchContent() {
-            let input = document.getElementById("searchBox").value.toLowerCase();
-            let contentDiv = document.getElementById("content");
-            let paragraphs = contentDiv.getElementsByTagName("p");
+</section>
 
-            for (let para of paragraphs) {
-                let text = para.textContent.toLowerCase();
-                if (text.includes(input)) {
-                    para.classList.add("highlight");
+<footer>
+    <h2>Social Media</h2>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/mortha.prasanth.7" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://youtube.com/@mpstroy-wk4fv" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://linkedin.com/in/prasanth-mortha-36937b321" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/m.p.s.t_roy" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <br>
+    <button class="resume"><a href="ROY_CV.pdf" download>Download CV</a></button>
+</footer>
+
+<script>
+    function searchContent() {
+        let input = document.getElementById("searchBox").value.toLowerCase();
+        let sections = document.querySelectorAll(".section");
+        let found = false;
+
+        sections.forEach(section => {
+            let elements = section.querySelectorAll("h1, h2, h3, p, li"); // Includes headings too
+            elements.forEach(element => {
+                let text = element.textContent.toLowerCase();
+                let originalHTML = element.innerHTML; // Store original content
+
+                if (input !== "" && text.includes(input)) {
+                    found = true;
+                    let regex = new RegExp(`(${input})`, "gi");
+                    element.innerHTML = originalHTML.replace(regex, `<span class="highlight">$1</span>`);
                 } else {
-                    para.classList.remove("highlight");
+                    element.innerHTML = originalHTML; // Reset content
                 }
-            }
+            });
+        });
+
+        if (!found && input !== "") {
+            alert("No matching content found!");
         }
-  </script>
-  
+    }
+
+    function validateForm() {
+        let name = document.getElementById("name").value.trim();
+        let email = document.getElementById("email").value.trim();
+        let message = document.getElementById("message").value.trim();
+
+        if (name === "" || email === "" || message === "") {
+            alert("Please fill in all fields.");
+            return false;
+        }
+
+        alert("Form submitted successfully!");
+        return true;
+    }
+</script>
+
+<style>
+    .highlight {
+        background-color: yellow;
+        font-weight: bold;
+        color: black;
+        padding: 2px;
+        border-radius: 3px;
+    }
+</style>
+
 </body>
 </html>
