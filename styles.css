@@ -608,10 +608,19 @@ footer h2 {
 
 
 
+.social-icons a {
+    display: inline-block;
+    margin: 10px 15px;
+    font-size: 1.6rem;
+    text-align: center;
+    justify-content: center;
+    color: orange;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
 .social-icons a:hover {
-
-  color:rgb(241, 243, 242);
-
+    color: rgb(241, 243, 242); /* Color change on hover */
+    transform: scale(1.2); /* Slight zoom effect */
 }
 
 /* 11 */
