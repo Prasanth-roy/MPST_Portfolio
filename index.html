@@ -304,37 +304,20 @@
 </footer>
 
   <script>
-
-        function searchContent() {
-
-            let input = document.getElementById("searchBox").value.toLowerCase();
-
-            let contentDiv = document.getElementById("content");
-
-            let paragraphs = contentDiv.getElementsByTagName("p");
-
-
-
-            for (let para of paragraphs) {
-
-                let text = para.textContent.toLowerCase();
-
-                if (text.includes(input)) {
-
-                    para.classList.add("highlight");
-
-                } else {
-
-                    para.classList.remove("highlight");
-
-                }
-
+    function searchContent() {
+        let input = document.getElementById("searchBox").value.toLowerCase();
+        let sections = document.querySelectorAll("section"); // Searching entire sections
+    
+        sections.forEach(section => {
+            let text = section.innerText.toLowerCase();
+            if (text.includes(input)) {
+                section.style.backgroundColor = "yellow"; // Highlight result
+            } else {
+                section.style.backgroundColor = ""; // Remove highlight if not matched
             }
-
-        }
-
+        });
+    }
   </script>
-
   
 
 </body>
