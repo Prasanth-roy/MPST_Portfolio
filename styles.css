@@ -621,7 +621,7 @@ footer h2 {
 .social-icons a:hover {
     color: rgb(241, 243, 242);
     transform: scale(1.2);
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Glow effect */
+    text-shadow: 0 0 15px rgba(255, 165, 0, 0.8); /* Soft Orange Glow */
 }
 
 /* 11 */
