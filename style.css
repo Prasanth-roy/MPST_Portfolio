@@ -714,12 +714,12 @@
       text-wrap: wrap;
       font-weight: lighter;
       font-size:small;
-      font-family:Arial, Helvetica, sans-serif;
+      font-family: Arial, sans-serif;
   }
   
   .cursor {
       font-size: 24px;
-      font-weight: bold;
+      font-weight: bolder;
       color: #007BFF;
       animation: blink 0.8s infinite;
   }
