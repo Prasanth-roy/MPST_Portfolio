@@ -10,29 +10,34 @@
 
   <title>Portfolio</title>
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
+   <style>
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
 </head>
 
   
 
 <body>
+<h2 id="typing-text"></h2>
+<span class="cursor">|</span> <!-- Blinking Cursor -->
 
  <header>
 
-   <div class="search-container">
+   <!-- <div class="search-container">
 
         <input type="text" id="searchBox" class="search-input" placeholder="Search...">
 
          <button class="search-button" onclick="searchContent()">Search</button>
    
 
-    </div>
+    </div> -->
 
    <h1 class="head">Portfolio</h1>
-
       <nav>
 
          <ul>
@@ -45,7 +50,9 @@
 
           <li><a href="#skills">Skills</a></li>
 
-             <li><a href="#contact">Contact</a></li>
+             <li><a href="#project">Projects</a></li>
+              <li><a href="#certificate">Certificates</a></li>
+ <li><a href="#contact">Contact</a></li>
 
           
 
@@ -53,7 +60,7 @@
 
       </nav>
 
-  <img src="Picsart_25-01-28_12-28-03-129.jpg" class="img" height="270" width="250">
+  <img src="Picsart_25-01-28_12-28-03-129.jpg" class="img" height="170" width="150">
 
     <div class="container">
 
@@ -200,6 +207,92 @@
     </div>
 
   </section>
+  <section id="project" class="section">
+    <h2>My Projects</h2>
+    <div class="project-container">
+
+        <!-- Project 1 -->
+        
+
+        <!-- Project 2 -->
+        <!-- <div class="project-card">
+            <img src="images/project2.png" alt="Project 2">
+            <h3>Travel Blog Website</h3>
+            <p>Beautifully designed travel blog website using HTML & CSS.</p>
+            <div class="project-links">
+                <a href="https://your-live-project2-link.com" target="_blank">Live Demo</a>
+                <a href="https://github.com/yourgithub/project2" target="_blank">Source Code</a>
+            </div>
+        </div> -->
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <img src="c:\Users\WIN11\Documents\first.jpg" alt="Project 1">
+            <h3>Portfolio Website</h3>
+            <p>My personal portfolio showcasing my skills and projects.</p>
+            <div class="project-links">
+                <a href="https://prasanth-roy.github.io/MPST_Portfolio/" target="_blank">Live Demo</a>
+                <a href="https://github.com/prasanth-roy/MPST_Portfolio" target="_blank">Source Code</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="\Users\WIN11\Documents\secnd.jpg" alt="Project 2">
+            <h3>Facultyc: Timetable Management</h3>
+            <p>A web app to manage and filter faculty schedules with search functionality.</p>
+            <div class="project-links">
+                <a href="https://prasanth-roy.github.io/Pydah_Faculty_TT/#" target="_blank">Live Demo</a>
+                <a href="https://github.com/prasanth-roy/Pydah_Faculty_TT" target="_blank">Source Code</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+  <section id="certificate" class="section">
+    <h2>My Certifications</h2>
+    <div class="certificate-container">
+
+        <!-- Certificate 1 -->
+        <div class="certificate-card" onclick="openCertificate('c:\Users\WIN11\Documents\AWS.jpg')">
+            <img src="c:\Users\WIN11\Documents\AWS.jpg" alt="Certificate 1">
+            <h3>Complete AWS Academy Graduate-AWS Academy Cloud Foundations  </h3>
+            <p>Issued on: 21/02/2025</p>
+            <a href="https://www.credly.com/badges/b804da66-0a5b-4cb4-a3a6-eaa4a811f9a1/linked_in_profile" class="link" target="_blank">Click Here to Show</a>
+        </div>
+        <div class="certificate-card" onclick="openCertificate('c:\Users\WIN11\Documents\Java.jpg')">
+            <img src="c:\Users\WIN11\Documents\Java.jpg" alt="Certificate 2">
+            <h3>Complete Java Developer Course</h3>
+            <p>Issued by: Aajhub & Sapienz Recruit</p>
+            <a href="https://heytopper.graphy.com/verify-certificate?serialno=VXM7HDI6" class="link" target="_blank">Click Here to Show</a>
+
+        </div>
+
+        <!-- Certificate 2 -->
+        <div class="certificate-card" onclick="openCertificate()">
+            <img src="c:\Users\WIN11\Documents\RedHat.jpg" alt="Certificate 3">
+            <h2>Red Hat Linux Fundamentals</h2>
+            <h3>RedHat Training and Certification</h3>
+            <p>Issued by: Red Hat Academy</p>
+            <a href="https://www.linkedin.com/posts/prasanth-mortha-36937b321_redhat-linux-rh104-activity-7296033680198623232-Vj_P?utm_source=share&utm_medium=member_android&rcm=ACoAAFFj90EBwx7qJ-c_uBXzHziZh3VV6h0A3DA" class="link" target="_blank">Click Here to Show</a>
+
+        </div>
+
+        <div class="certificate-card" onclick="openCertificate('images/certificate2.png')">
+            <img src="c:\Users\WIN11\Documents\Python.jpg" alt="Certificate 4">
+            <h2>Python for Data Science</h2>
+            
+            <p>Issued by:IBM</p>
+            <a href="https://www.credly.com/badges/b3f63db8-1568-46dd-a035-2a4289a5cce3/linked_in_profile" class="link" target="_blank">Click Here to Show</a>
+ 
+        </div>
+    </div>
+
+    <!-- Fullscreen Certificate View -->
+    <div id="certificatePopup" class="popup">
+        <span class="close-btn" onclick="closeCertificate()">&times;</span>
+        <img id="popupImage" src="" alt="Certificate">
+    </div>
+</section>
 
 
 
@@ -209,7 +302,7 @@
 
     <p>Feel free to reach out to discuss projects or collaborations!</p>
 
-    <form action="https://api.web3forms.com/submit" method="POST">
+    <form action="https://api.web3forms.com/submit" method="POST" class="firm">
 
       <input type="hidden" name="access_key" value="94e20a8d-8602-430f-b411-50fc9b7d937d">
 
@@ -303,21 +396,7 @@
 
 </footer>
 
-  <script>
-    function searchContent() {
-        let input = document.getElementById("searchBox").value.toLowerCase();
-        let sections = document.querySelectorAll("section"); // Searching entire sections
-    
-        sections.forEach(section => {
-            let text = section.innerText.toLowerCase();
-            if (text.includes(input)) {
-                section.style.backgroundColor = "yellow"; // Highlight result
-            } else {
-                section.style.backgroundColor = ""; // Remove highlight if not matched
-            }
-        });
-    }
-  </script>
+  <script src="./node.js"></script>
   
 
 </body>
