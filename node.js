@@ -29,7 +29,7 @@ function typeEffect() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    const text = "🛑Aspiring Frontend Developer | JavaScript Enthusiast | Muscian | Student ||";
+    const text = " Aspiring Frontend Developer | JavaScript Enthusiast | Muscian | Student ||";
     let index = 0;
 
     function typeEffect() {
