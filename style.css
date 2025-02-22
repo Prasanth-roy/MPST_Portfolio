@@ -707,8 +707,8 @@
   }
   #typing-text {
       font-size: 24px;
-      font-weight: bold;
-      color: rgb(11, 11, 11);
+      font-weight: bolder;
+      color: black;
       display: inline;
       text-align: center;
       text-wrap: wrap;
