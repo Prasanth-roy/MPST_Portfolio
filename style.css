@@ -133,6 +133,7 @@
   }
   .link:hover {
     transform: scale(1.05);
+    color:red;
 }
   
   header nav ul {
