@@ -77,5 +77,5 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
         loadingAnimation.style.display = 'none';
         content.style.display = 'block';
-    }, 100); // 3000 milliseconds = 3 seconds
+    }, 3000); // 3000 milliseconds = 3 seconds
 });
