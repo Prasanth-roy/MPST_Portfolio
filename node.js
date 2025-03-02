@@ -67,3 +67,15 @@ function closeCertificate() {
             }
         });
     }
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Show the loading animation
+    const loadingAnimation = document.getElementById('loading-animation');
+    const content = document.getElementById('content');
+
+    // Set a timeout to hide the loading animation and show the content after 3 seconds
+    setTimeout(function() {
+        loadingAnimation.style.display = 'none';
+        content.style.display = 'block';
+    }, 2000); // 3000 milliseconds = 3 seconds
+});
